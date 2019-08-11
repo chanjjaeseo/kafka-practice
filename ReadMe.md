@@ -3,9 +3,11 @@
 - https://spring.io/projects/spring-kafka
 - https://docs.spring.io/spring-kafka/docs/2.2.7.RELEASE/reference/html
 
+
 ### Kafka 配置
 
 > 摘自 「Kafka 权威指南」
+
 
 #### Producer 生产者配置参数
 
@@ -248,3 +250,5 @@
     可以适当增大这些值，因为跨数据中心的网络一般都有比较高的延迟和比较低的带宽。
 
 #### Broker
+
+
