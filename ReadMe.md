@@ -92,7 +92,7 @@
     ( message.max. bytes)，所以两边的配置最好可以匹配，
     避免生产者发送的消息被 broker拒绝。
     
-- receive.buffer.bytes 和 send.bu仔er.bytes
+- receive.buffer.bytes 和 send.buffer.bytes
     
     - 这两个参数分别指定了 TCP socket接收和发送数据包的缓冲区大小。 
     如果它们被设为 -1, 就使用操作系统的默认值。
