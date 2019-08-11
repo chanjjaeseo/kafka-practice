@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kafka-client-admin" />
+        <module name="kafka-consumer" />
+        <module name="kafka-producer" />
+        <module name="kafka-springboot" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kafka-client-admin" target="1.8" />
+      <module name="kafka-consumer" target="1.8" />
+      <module name="kafka-practice" target="1.7" />
+      <module name="kafka-producer" target="1.8" />
+      <module name="kafka-springboot" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
